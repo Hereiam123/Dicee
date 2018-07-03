@@ -42,15 +42,22 @@
                                 <state key="normal" title="Roll them Bones! ">
                                     <color key="titleColor" red="0.99221473932266235" green="0.68916851282119751" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="rollButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1kG-HC-0XP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="diceImageView1" destination="Xcu-RP-fcx" id="0ZT-ze-2IS"/>
+                        <outlet property="diceImageView2" destination="zt2-ha-Mtm" id="IZ8-fN-BT7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="316" y="129"/>
         </scene>
     </scenes>
     <resources>
